@@ -89,7 +89,7 @@ section{
 .s2-1{
     background: linear-gradient(180deg,white 5%, #6633ff 100%);
 }
-.h2{
+.h21{
     -webkit-background-clip: text;
     position: absolute;
     -webkit-text-fill-color:black;
@@ -107,14 +107,113 @@ section{
 .p{
     -webkit-background-clip: text;
     -webkit-text-fill-color:#49494d;
-    font-size: 2rem;
+    font-size: 1rem;
     padding-top: 3rem;
     padding-left: 3rem;
     padding-right: 5rem;
 }
-.img{
+/* .img{
     border-radius: 10px;
-    height: 50%;
+    height: 20%;
     width: 25%;
-    margin-left: 34rem;
+    
+    
+} */
+.img1{
+        border-radius: 10px;
+        height: 50%;
+        width: 50%;
+        margin-left: 34%;
+        
+    }
+.social_media{
+    -webkit-background-clip: text;
+    position: absolute;
+    -webkit-text-fill-color:black;
+    top: 5%;
+    left: 70%; 
+}
+.social-logo{
+    /* display: flex; */
+    margin-left: 19%;
+    font-size: 6rem;
+    text-decoration: none;
+}
+.social-logo:hover{
+    color:#49494d ;
+    transition: 1s;
+}
+
+@media screen and (min-width: 768px){
+    .img1{
+        border-radius: 10px;
+        height: 50%;
+        width: 25%;
+        margin-left: 34%;
+        box-shadow: ;
+        
+    }
+    .p{
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:#49494d;
+        font-size: 1.5rem;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 5rem;
+    }
+    
+}
+.skills-subtitle{
+    font-size: 2.5rem;
+    /* margin-left: 30rem; */
+}
+.skills-container{
+    row-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35rem;
+}
+.skills-data{
+    display: flex;
+    color: #49494d;
+    font-weight: bold;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 5px 25px rgba(14, 36, 49, .15);
+}
+.skills-icon{
+    font-size: 1.5rem;
+    color:#49494d ;
+}
+.skills-names{
+    display: flex;
+    align-items: center;
+}
+.skills-bar{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    background-color: royalblue;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: -10;
+}
+.skills-html{
+    width: 95%;
+}
+.skills-css{
+    width: 85%;
+}
+.skills-javascript{
+    width:65%;
+}
+.skills-nodejs{
+    width: 60%;
+}
+.skills-mongodb{
+    width: 70%;
 }
